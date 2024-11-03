@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/xnacly/go-chess/field"
+)
 
 func main() {
-    fmt.Println("Hello world")
+	board := field.Board{}
+	board.Init()
 }
